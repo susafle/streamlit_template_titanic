@@ -318,7 +318,7 @@ def main():
         )
         
         # Load data
-        default_file = "titanic_clean.csv"
+        default_file = "data/titanic_clean.csv"
         df = load_data(default_file, uploaded_file)
         
         if df.empty:
